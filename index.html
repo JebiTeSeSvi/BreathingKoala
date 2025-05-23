@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breathing Koala - Unique Plush Toy</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #faf5ff;
+        }
+        
+        .gradient-bg {
+            background: linear-gradient(135deg, #f3e8ff 0%, #fae8ff 100%);
+        }
+        
+        .pulse {
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.05);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+        
+        .skrill-btn {
+            background: linear-gradient(135deg, #7b1fa2 0%, #9c27b0 100%);
+            box-shadow: 0 4px 15px rgba(156, 39, 176, 0.3);
+            transition: all 0.3s ease;
+        }
+        
+        .skrill-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(156, 39, 176, 0.4);
+        }
+        
+        .instruction-box {
+            border-left: 4px solid #9c27b0;
+            background-color: rgba(255, 255, 255, 0.8);
+        }
+        
+        .product-image {
+            max-height: 500px;
+            object-fit: contain;
+        }
+        
+        .image-container {
+            position: relative;
+            overflow: hidden;
+            border-radius: 1rem;
+        }
+        
+        .image-overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(to top, rgba(0,0,0,0.7) 0%, transparent 100%);
+            color: white;
+            padding: 1rem;
+        }
+    </style>
+</head>
+<body class="gradient-bg">
+    <div class="container mx-auto px-4 py-8 max-w-4xl">
+        <!-- Header -->
+        <header class="text-center mb-10">
+            <h1 class="text-4xl md:text-5xl font-bold text-purple-900 mb-2">Breathing Koala</h1>
+            <p class="text-lg text-purple-700">The most adorable plush toy that breathes like a real koala!</p>
+        </header>
+        
+        <!-- Product Section -->
+        <div class="flex flex-col md:flex-row gap-8 mb-12">
+            <!-- Product Image -->
+            <div class="md:w-1/2">
+                <div class="image-container bg-white rounded-xl shadow-lg overflow-hidden pulse">
+                    <img src="https://m.media-amazon.com/images/I/616PxHNOc7L._AC_UF894,1000_QL80_.jpg" 
+                         alt="Breathing Koala with Light Sound Baby Sleep and Playmate" 
+                         class="w-full h-auto product-image">
+                    <div class="image-overlay">
+                        <h3 class="font-bold">Breathing Koala with Light & Sound</h3>
+                        <p class="text-sm">Perfect baby sleep companion</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Product Info -->
+            <div class="md:w-1/2">
+                <div class="bg-white rounded-xl shadow-lg p-6">
+                    <h2 class="text-2xl font-bold text-purple-900 mb-4">Breathing Koala Plush Toy with Light & Sound</h2>
+                    
+                    <div class="flex items-center mb-4">
+                        <div class="text-yellow-400 mr-2">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <span class="text-gray-600">4.8 (128 reviews)</span>
+                    </div>
+                    
+                    <p class="text-gray-700 mb-6">
+                        This adorable breathing koala plush toy features realistic breathing movements, 
+                        soothing light effects, and gentle sounds to help babies sleep. 
+                        The ultra-soft plush material and cuddly design make it the perfect companion 
+                        for newborns and toddlers.
+                    </p>
+                    
+                    <div class="mb-6">
+                        <span class="text-3xl font-bold text-purple-900">€23.00</span>
+                        <span class="text-sm text-gray-500 ml-2">+ Free Shipping</span>
+                    </div>
+                    
+                    <div class="mb-6">
+                        <div class="flex items-center text-green-600 mb-2">
+                            <i class="fas fa-check-circle mr-2"></i>
+                            <span>In stock and ready to ship</span>
+                        </div>
+                        <div class="flex items-center text-purple-600">
+                            <i class="fas fa-shipping-fast mr-2"></i>
+                            <span>Estimated delivery: 7-14 days</span>
+                        </div>
+                    </div>
+                    
+                    <a href="#payment-instructions" 
+                       class="block w-full py-3 px-6 text-center text-white font-bold rounded-lg skrill-btn mb-4">
+                        <i class="fas fa-shopping-cart mr-2"></i> BUY NOW
+                    </a>
+                    
+                    <div class="text-center text-sm text-gray-500">
+                        <i class="fas fa-lock mr-1"></i> Secure payment
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Features Section -->
+        <div class="bg-white rounded-xl shadow-lg p-6 mb-12">
+            <h2 class="text-2xl font-bold text-purple-900 mb-6 text-center">Why You'll Love It</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="text-center">
+                    <div class="text-purple-600 text-3xl mb-3">
+                        <i class="fas fa-heartbeat"></i>
+                    </div>
+                    <h3 class="font-bold text-lg mb-2">Realistic Breathing</h3>
+                    <p class="text-gray-600">Simulates gentle breathing movements like a real koala</p>
+                </div>
+                
+                <div class="text-center">
+                    <div class="text-purple-600 text-3xl mb-3">
+                        <i class="fas fa-music"></i>
+                    </div>
+                    <h3 class="font-bold text-lg mb-2">Soothing Sounds</h3>
+                    <p class="text-gray-600">Plays gentle lullabies and white noise for better sleep</p>
+                </div>
+                
+                <div class="text-center">
+                    <div class="text-purple-600 text-3xl mb-3">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3 class="font-bold text-lg mb-2">Soft Night Light</h3>
+                    <p class="text-gray-600">Gentle glow helps comfort babies at night</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Payment Instructions -->
+        <div id="payment-instructions" class="bg-white rounded-xl shadow-lg p-6 mb-12">
+            <h2 class="text-2xl font-bold text-purple-900 mb-6 text-center">How To Order</h2>
+            
+            <div class="instruction-box p-6 rounded-lg mb-8">
+                <h3 class="text-xl font-bold text-purple-800 mb-4 flex items-center">
+                    <i class="fas fa-credit-card mr-2"></i> How to Pay with Skrill
+                </h3>
+                <p class="mb-4">We accept payments via Skrill. To place an order, please follow these steps:</p>
+                
+                <ol class="list-decimal pl-5 space-y-3 mb-6">
+                    <li>Log in to your Skrill account (or sign up at <a href="https://www.skrill.com" class="text-purple-600 hover:underline">www.skrill.com</a>)</li>
+                    <li>Send the payment to: 📧 <span class="font-bold">mihailoromandic17@gmail.com</span></li>
+                    <li>In the payment note, include:
+                        <ul class="list-disc pl-5 mt-2 space-y-1">
+                            <li>Your full name</li>
+                            <li>Product name (e.g., "Breathing Koala")</li>
+                            <li>Your email or Instagram username</li>
+                        </ul>
+                    </li>
+                </ol>
+                
+                <p class="mb-4">After payment, send us a screenshot of the payment via Instagram DM. 📸 DM: <span class="font-bold">soon!</span></p>
+                
+                <p>We will confirm your order and deliver the product after verifying the payment. If you need any help, feel free to contact us!</p>
+            </div>
+            
+            <a href="https://www.skrill.com" 
+               target="_blank"
+               class="block w-full py-3 px-6 text-center text-white font-bold rounded-lg skrill-btn mb-4">
+                <i class="fab fa-skull mr-2"></i> PAY WITH SKRILL
+            </a>
+            
+            <div class="text-center text-sm text-gray-500">
+                <i class="fas fa-shield-alt mr-1"></i> Secure payment processed by Skrill
+            </div>
+        </div>
+        
+        <!-- FAQ Section -->
+        <div class="bg-white rounded-xl shadow-lg p-6">
+            <h2 class="text-2xl font-bold text-purple-900 mb-6 text-center">Frequently Asked Questions</h2>
+            
+            <div class="space-y-4">
+                <div class="border-b border-gray-200 pb-4">
+                    <h3 class="font-bold text-purple-800 mb-2">How does the breathing feature work?</h3>
+                    <p class="text-gray-600">The koala has a small mechanical device inside that creates gentle rising and falling movements to simulate breathing.</p>
+                </div>
+                
+                <div class="border-b border-gray-200 pb-4">
+                    <h3 class="font-bold text-purple-800 mb-2">What sounds does it play?</h3>
+                    <p class="text-gray-600">It plays 4 different soothing sounds: heartbeat, white noise, ocean waves, and a gentle lullaby.</p>
+                </div>
+                
+                <div class="border-b border-gray-200 pb-4">
+                    <h3 class="font-bold text-purple-800 mb-2">How long does the battery last?</h3>
+                    <p class="text-gray-600">The built-in rechargeable battery lasts up to 8 hours on a single charge.</p>
+                </div>
+                
+                <div class="pb-2">
+                    <h3 class="font-bold text-purple-800 mb-2">Is it machine washable?</h3>
+                    <p class="text-gray-600">The plush cover is removable and machine washable. The electronic unit should be hand-washed only.</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Footer -->
+        <footer class="mt-12 text-center text-gray-600 text-sm">
+            <p>© 2023 Breathing Koala. All rights reserved.</p>
+            <p class="mt-2">Contact us: mihailoromandic17@gmail.com</p>
+        </footer>
+    </div>
+    
+    <script>
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
